@@ -34,9 +34,8 @@
     font-weight: 600;
     border-radius: 8px;
     border: none;
-    
   }
-  main{
+  main, footer{
     max-width: 1440px;
     margin: 0 auto;
   }
@@ -175,7 +174,18 @@
 .sponsor-companies img{
   filter: grayscale(100%);
 }
-
+/* footer section */
+.footer-part{
+  background-color: #f5b15f;
+  border-radius: 8px;
+  margin-top: 130px;
+}
+.footer-descrip{
+  padding: 39px 410px;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
 
 
 
@@ -202,14 +212,10 @@
     margin-top: 20px;
     margin-left: 15px;
   }
-
+  .footer-descrip{
+    padding: 10px 10px;
+  }
 }
-
-
-
-
-
-
 /* medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .teams, .feature{
